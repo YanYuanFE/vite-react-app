@@ -24,7 +24,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "rootDir": "./",
+    "baseUrl": "./"
   },
-  "include": ["./src"]
+  "include": ["./src"],
+  "exclude": [".tmp", "node_modules"]
 }

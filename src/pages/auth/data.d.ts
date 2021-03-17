@@ -24,12 +24,3 @@ export interface StateType {
     new_password: string;
   };
 }
-
-export interface ModelType {
-  namespace: string;
-  state: StateType;
-  effects: {
-    submitStepForm: Effect;
-  };
-  reducers: {};
-}
